@@ -4,12 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "production" : "webpack -p",
+    "start" : "webpack-dev-server"
   },
   "author": "",
   "license": "BSD-2-Clause",
   "dependencies": {
     "react-dom": "~0.14.7",
     "react": "~0.14.7"
+  },
+  "devDependencies": {
+    "babel-loader": "~6.2.4",
+    "webpack-dev-server": "~1.14.1",
+    "webpack": "~1.12.14",
+    "html-webpack-plugin": "~2.10.0",
+    "babel-core": "~6.7.2",
+    "babel-preset-react": "~6.5.0"
   }
 }
